@@ -7,6 +7,7 @@ function attach() {
 	console.info = function() {};
 	console.warn = function() {};
 	console.error = function() {};
+	console.debug = function() {};
 }
 
 module.exports = {
@@ -20,4 +21,4 @@ module.exports = {
 		global.hideConsoleLog = !!bool;
 		return this;
 	}
-}
+};
